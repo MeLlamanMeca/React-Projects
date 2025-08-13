@@ -5,11 +5,14 @@ Este proyecto es una aplicación React creada con Vite que muestra tarjetas inte
 
 ## Características
 
-- Tarjetas con efecto 3D de inclinación.
-- Código limpio y modular.
-- Configuración mínima usando Vite.
-
-![Demo Tilt Cards](../assets/01/cardstilt.gif)
+<div style="display: flex; align-items: center; gap: 10px; justify-content: center">
+    <img src="../assets/01/cardstilt.gif" alt="Demo Tilt Cards" width="300">    
+  <ul>
+    <li>Tarjetas con efecto 3D de inclinación.</li>
+    <li>Código limpio y modular.</li>
+    <li>Configuración mínima usando Vite.</li>
+  </ul>
+</div>
 
 ## Instalación
 
