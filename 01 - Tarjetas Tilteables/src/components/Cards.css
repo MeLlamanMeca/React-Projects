@@ -1,0 +1,73 @@
+.cards-container {
+  width: wrap-content;
+  padding: 25px 0;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 150px;
+  height: 225px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card svg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  z-index: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card .icon {
+  position: absolute;
+  width: 30%;
+  object-fit: contain;
+  top: 20%;
+  left: 35%;
+  filter: grayscale(100%) brightness(5);
+  z-index: 1;
+}
+
+.modifier {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -12.5px;
+  right: -12.5px;
+  z-index: 2;
+}
+
+@media (max-width: 800px) {
+  .cards-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .cards-slider .card {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 100px;
+    height: 140px;
+    border-radius: 13px;
+  }
+  .card svg {
+    border-radius: 13px;
+  }
+
+}
