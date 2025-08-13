@@ -1,7 +1,7 @@
 # Tilt Cards
 
 Este proyecto es una aplicación React creada con Vite que muestra tarjetas interactivas con efecto de inclinación (tilt) al pasar el mouse.
-![Demo Tilt Card](../assets/01/cards.png)
+![Cards](../assets/01/cards.png)
 
 ## Características
 
@@ -9,7 +9,7 @@ Este proyecto es una aplicación React creada con Vite que muestra tarjetas inte
 - Código limpio y modular.
 - Configuración mínima usando Vite.
 
-![Demo Tilt Card](../assets/01/cardtilt.gif)
+![Demo Tilt Cards](../assets/01/cardstilt.gif)
 
 ## Instalación
 
