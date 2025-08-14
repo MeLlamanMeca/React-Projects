@@ -19,7 +19,7 @@ Este proyecto es una aplicación React creada con Vite que muestra tarjetas inte
 1. Clona el repositorio:
     ```bash
     git clone https://github.com/MeLlamanMEca/React-Projects.git
-    cd tilt-cards/01 - Tarjetas Tilteables
+    cd React-Projects/01 - Tarjetas Tilteables
     ```
 2. Instala las dependencias:
     ```bash
