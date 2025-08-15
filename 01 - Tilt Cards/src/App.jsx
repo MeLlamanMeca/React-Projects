@@ -1,9 +1,8 @@
 import { React } from 'react'
-import './App.css' // Importa tus estilos CSS aquí // Asegúrate de que la ruta sea correcta
-import Cards from './components/Cards.jsx' // Asegúrate de que la ruta sea correcta
+import './App.css'
+import Cards from './components/Cards.jsx'
 
-export default function App() { // Color de fondo azul intenso
-   // Efecto para actualizar el color de fondo
+export default function App() {
   return (
     <>
       <Cards/>

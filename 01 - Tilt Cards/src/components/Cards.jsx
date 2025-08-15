@@ -9,7 +9,7 @@ export default function Cards() {
     return (
     <div className="cards-container">
         {cardData.map(({ hoverColor, endColor, imgSrc, name }, index) => (
-            <Tilt key={index} 
+            <Tilt key={index}
             tiltReverse={true} 
             scale={1.15} 
             glareEnable={true} 
