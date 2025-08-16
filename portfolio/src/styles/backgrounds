@@ -1,0 +1,5 @@
+conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn);
+conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn);
+background: url(/assets/noise.GcUVZ9sd.webp), radial-gradient(circle at right center, #4b296980, #563277 25%, #4a378c, #4066a8 65%, #32517380);
+        -webkit-mask-image: radial-gradient(ellipse 80% 40% at center center, #000 20%, #00000080 50%, #0000);
+        mask-image: radial-gradient(ellipse 80% 40% at center center, #000 20%, #00000080 50%, #0000);

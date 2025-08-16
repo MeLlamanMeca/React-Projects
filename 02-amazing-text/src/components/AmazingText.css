@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "KonkhmerSleokchher";
+    src: url("../fonts/KonkhmerSleokchher-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.amazing-text {
+    color: #8d8d8d;
+    font-family: "KonkhmerSleokchher";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

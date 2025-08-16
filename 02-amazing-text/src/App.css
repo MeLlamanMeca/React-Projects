@@ -1,0 +1,23 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px 250px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    gap: 15px 25px;
+  }
+}
