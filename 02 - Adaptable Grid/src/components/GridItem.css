@@ -1,0 +1,64 @@
+.adaptable-grid-bg {
+    cursor: pointer;
+    position: relative;
+    overflow: visible;
+    --hover-color: #ffffff;
+}
+
+.adaptable-grid-bg::before {
+    content: "";
+    position: absolute;
+    inset: 10%;
+    background-color: var(--hover-color);
+    filter: blur(15px);
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 3s ease;
+    will-change: opacity;
+}
+
+.adaptable-grid-bg:hover::before {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.adaptable-grid-item {
+    background: #181818;
+    stroke: 1px;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    width: var(--component-size);
+    height: var(--component-size);
+    flex: 0 0 var(--component-size);
+    position: relative;
+    --glow-color: #ffffff;
+    z-index: 1;
+    
+}
+
+.adaptable-grid-item-src {
+    position: relative;
+    z-index: 3;
+    padding: 18px;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.adaptable-grid-item-bg {
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  filter: blur(30px); 
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.adaptable-grid-empty {
+    transform: scale(1);
+    transition: transform 3s ease;
+}
+.adaptable-grid-empty:hover {
+    transform: scale(0.9);
+    transition: transform 0.2s ease;
+}

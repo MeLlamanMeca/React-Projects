@@ -2,6 +2,11 @@
 
 Este repositorio es un **monorepo** que agrupa distintos proyectos desarrollados con **React**.
 
+## Tecnologías
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+
 ## Proyectos incluidos
 
 ### 01. Tilt Cards
@@ -14,6 +19,15 @@ Primer proyecto del monorepo. Permite crear tarjetas interactivas que se inclina
 - [react-parallax-tilt](https://www.npmjs.com/package/react-parallax-tilt)
 
 ---
+
+### 02. Adaptable Grid
+
+Genera una cuadrícula adaptable y personalizable que se ajusta automáticamente al tamaño de la pantalla y al contenido.
+
+![Demo Adaptable Grid](assets/02/grid.png)
+
+#### Librerías utilizadas
+- [framer-motion](https://www.framer.com/motion/)
 
 ## Herramienta de construcción
 

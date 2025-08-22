@@ -1,7 +1,7 @@
 import { React } from 'react'
 import Tilt from "react-parallax-tilt";
 import './Cards.css'
-import { cardData } from '../data/CardsData.jsx'
+import { cardData } from '../data/CardsData.js'
 import CardBg from '../assets/cardBg.jsx'
 
 export default function Cards() {
